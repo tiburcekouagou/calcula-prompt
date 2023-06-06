@@ -8,21 +8,21 @@ const operateur = window.prompt("Entrez un opérateur arithmétique svp...") ;
 
 if(operateur === "+"){
     result = firstnumber + secondNumber ;
-    console.log( firstnumber, operateur, secondNumber, "=", result ) ;
+    console.log("Calcul : " + firstnumber +" "+  operateur +" "+ secondNumber +" "+ "= " + result ) ;
 }
 
 if(operateur === "-"){
     result = firstnumber - secondNumber ;
-    console.log( firstnumber, operateur, secondNumber, "=", result ) ;
+    console.log("Calcul : " + firstnumber +" "+  operateur +" "+ secondNumber +" "+ "= " + result ) ;
 }
 
 if(operateur === "*"){
     result = firstnumber * secondNumber ;
-    console.log( firstnumber, operateur, secondNumber, "=", result ) ;
+    console.log("Calcul : " + firstnumber +" "+  operateur +" "+ secondNumber +" "+ "= " + result ) ;
 }
 
 if(operateur === "/"){
     result = firstnumber / secondNumber ;
-    console.log( firstnumber, operateur, secondNumber, "=", result ) ;
+    console.log("Calcul : " + firstnumber +" "+  operateur +" "+ secondNumber +" "+ "= " + result ) ;
 }
 
