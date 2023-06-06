@@ -3,7 +3,7 @@
  */
 
 let nbr1 = window.prompt("Entrez le 1er nombre ?");
-let operateur = window.prompt("Choisissez le type d\'opération (+, *, - ou /)");
+let operateur = window.prompt('Choisissez le type d\'opération (+, *, - ou /)');
 let nbr2 = window.prompt("Entrez le 2ème nombre ?");
 
 let multi = Number(nbr1) * Number(nbr2);
