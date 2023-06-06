@@ -24,23 +24,23 @@ const number_2 = Number(window.prompt("Entrez le second nombre !"));
 let result;
 
 if (operateur === "*") {
-    console.log(number_1 + " * " + number_2);
+    console.log("Calcul: " + number_1 + " * " + number_2);
     result = number_1 * number_2;
 } else if (operateur === "/"){
-    console.log(number_1 + " / " + number_2);
+    console.log("Calcul: " + number_1 + " / " + number_2);
     result = number_1 / number_2;
 }else if (operateur === "+"){
-    console.log(number_1 + " + " + number_2);
+    console.log("Calcul: " + number_1 + " + " + number_2);
     result = number_1 + number_2;
 }else if (operateur === "-"){
-    console.log(number_1 + " - " + number_2);
+    console.log("Calcul: " + number_1 + " - " + number_2);
     result = number_1 - number_2;
 }else {
     window.alert("Désolé vous ne pouvez pas effectuer une opération. 🙄")
 }
 
 /* Affichage du résultat */
-console.log(result);
+console.log("Résultat: " + result);
 
 
 
