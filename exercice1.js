@@ -4,29 +4,38 @@
 
 
 const firstNumber = Number(window.prompt("Premier nombre"));
+
 const operator = window.prompt("Entrez l'opérateur de calcul");
+
 const secondNumber = Number(window.prompt("Second nombre"));
 
-console.log(firstNumber + operator +  secondNumber);
+console.log("Opération : " + firstNumber + " " + operator + " " + secondNumber); 
 
+if (operator === "+" || operator === "-" || operator === "*" || operator === "/") {
 
-if (operator === "+") {
-    console.log(firstNumber + secondNumber);
+    if (operator === "+") {
+        console.log("Résultat :" + (firstNumber + secondNumber));
+    }
+    
+    if (operator === "-") {
+        console.log("Résultat :" + firstNumber - secondNumber);
+    }
+    
+    if (operator === "*") {
+        console.log("Résultat :" + firstNumber * secondNumber);
+    }
+    
+    if (operator === "/") {
+        console.log("Résultat :" + firstNumber / secondNumber);
+    }
 }
 
-if (operator === "-") {
-    console.log(firstNumber - secondNumber);
-}
-
-if (operator === "*") {
-    console.log(firstNumber * secondNumber);
-}
-
-if (operator === "/") {
-    console.log(firstNumber / secondNumber);
+else {
+    console.log("Insérez un opérateur arithmétique s'il vous plaît");
 }
 
 
 
-// console.log(firstNumber + operator + secondNumber);
+
+
 
