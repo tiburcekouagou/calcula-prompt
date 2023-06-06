@@ -4,8 +4,6 @@
 const num1 = window.prompt("entrer le premier nombre");
 let operator = window.prompt("entrer l'opérateur");
 const num2 = window.prompt("entrer le second nombre");
-isNaN(num1)
-isNaN(num2)
 if (isNaN(num1) === false && isNaN(num2) === false && operator === "+" ||operator === "-" || operator === "*" || operator === "/" || operator === "÷" ||  operator === "x"  || operator === ".") {
 
     if (operator === "+") {
@@ -39,6 +37,6 @@ if (isNaN(num1) === false && isNaN(num2) === false && operator === "+" ||operato
 
 }
 else {
-    console.log(" veuillez entrer des nombres et de correctes opérateurs arithmétique s'il vous plaît ")
-    document.write(" veuillez entrer des nombres et de correctes opérateurs arithmétique s'il vous plaît ")
+    console.log(" veuillez entrer des nombres et de correctes opérateurs arithmétique s'il vous plaît (+, -, *, x, ., /, ÷) ")
+    document.write(" veuillez entrer des nombres et de correctes opérateurs arithmétique s'il vous plaît (+, -, *, x, ., /, ÷) ")
 }
