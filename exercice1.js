@@ -11,6 +11,12 @@ const secondNumber = Number(window.prompt(`Entre un second nombre`));
 
 let operationResult;
 
+if ((isNaN(firstNumber) || isNaN(secondNumber)) && (arithOperator !== '*' || arithOperator !== '+' || arithOperator !== '/' || arithOperator !== '-')) {
+    alert("Désolé veuillez revérifier les données que vous avez rentrés !");
+} 
+
+else {
+
 if(arithOperator === "*") {
     console.log(firstNumber, arithOperator, secondNumber);
     operationResult = firstNumber * secondNumber;
@@ -29,7 +35,7 @@ else if (arithOperator === "+") {
 else if (arithOperator === "-") {
     console.log(firstNumber, arithOperator, secondNumber);
     operationResult = firstNumber - secondNumber;
-}
+} };
 
 console.log(operationResult);
 
